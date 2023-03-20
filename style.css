@@ -1,4 +1,3 @@
-
 body{
     margin: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -39,6 +38,10 @@ a{
 a:hover{
     border: 2px dashed black;
     font-size: x-large; 
+}
+
+#header_3{
+    display: none;
 }
 
 p{
@@ -255,12 +258,269 @@ input:hover{
 #logo1{
     width: 55px;
     height: 55px;
-    background-color: gray;
-    border: none;
+    background-color: black;
+    border: 5px dotted gray;
     border-radius: 100%;
     float: left;
     margin-top: 7%;
     margin-right: 5%;
     text-align: center;
+    color: gray;
+}
+
+@media (max-width: 800px) {
+    body{
+        margin: 0px;
+        text-align: center;
+    }
+#bdy{
+    display: block;
+    
+}
+
+#section_1{
+    background-color: beige;
+    padding: 10px 20px 10px  20px;
+    width: 100%;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: overline;
+}
+
+#header_1{
+    display: block;
+    padding-bottom: 20px;
+      
+}
+
+a{
+    text-decoration: none;
     color: black;
+    font-weight: 100;
+    padding: 25px;
+}
+
+a:focus{
+    border: none;
+    text-decoration: underline;
+    font-size: large; 
+}
+
+#header_3{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+h1{
+    font-size: 9vw;
+    margin: auto;
+    width: 70%;
+}
+
+.para{
+    font-size: small;
+    opacity: 0.9;
+}
+
+#btn1{
+    background-color: orangered;
+    border: 0px solid orangered;
+    padding: 8px 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#btn1:focus{
+    border: 1px dashed black;
+    font-size: large;
+    color: black;
+}
+
+#section_2{
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+#header_2{
+    display: none;
+}
+
+input{
+    padding:10px;
+    border: 1px solid white;
+    width: 35vw;
+    margin-bottom: 0px;
+}
+
+input:focus{
+    border: 3px dashed white;
+    font-size: large;
+}
+
+#btn3{
+    padding: 5px 15px;
+    margin: 0px 20px;
+    width: 20vw;
+    background-color: beige;
+}
+
+#btn3:focus{
+    border: 3px dashed black;
+    font-size: large;
+    background-color: beige;
+}
+
+#images{
+    display: grid;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#property1{
+    width: 4rem;
+    height: 5rem;
+}
+
+#property1:hover{
+    width: 5rem;
+    height: 6rem;
+}
+
+#property2{
+    width: 5rem;
+    height: 7rem;
+}
+
+#property2:hover{
+    width: 6rem;
+    height: 8rem;
+}
+
+#property3{
+    width: 3rem;
+    height: 5rem;
+    border: none;
+    border-radius:  0px 70px 0px 0px ;
+}
+
+#property3:hover{
+    width: 4rem;
+    height: 6rem;
+    border: none;
+    border-radius:  0px 70px 0px 0px ;
+}
+
+#property4{
+    width: 7rem;
+    height: 4rem;
+    padding-right: 4px;
+}
+
+#property4:hover{
+    width: 8rem;
+    height: 5rem;
+    padding-right: 4px;
+}
+
+#property5{
+    float: right;
+    width: 3rem;
+    height: 4rem;
+    padding-right: 4px;
+}
+
+#property5:hover{
+    float: right;
+    width: 4rem;
+    height: 5rem;
+    padding-right: 4px;
+}
+
+#property6{
+    width: 6rem;
+    height: 6rem;
+    
+}
+
+#property6:hover{
+    width: 7rem;
+    height: 7rem;
+}
+
+#property7{
+    width: 3rem;
+    height: 6rem;
+    
+}
+
+#property7:hover{
+    width: 4rem;
+    height: 7rem;
+}
+
+#property8{
+    width: 2rem;
+    height: 3rem;
+    padding-left: 4px;
+}
+
+#property8:hover{
+    width: 3rem;
+    height: 4rem;
+    padding-left: 4px;
+    
+}
+
+#btn2:focus{
+    border: 1px dashed white;
+    font-size: large;
+
+}
+
+#logo2{
+    width: 55px;
+    height: 55px;
+    background-color: gray;
+    border: none;
+    border-radius: 100%;
+    float: none;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+#logo1{
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    border: 5px dotted gray;
+    border-radius: 100%;
+    float: none;
+    margin: auto;
+    text-align: center;
+    color: gray;
+}
+
+#foot{
+    display: block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: large;
+}
 }
